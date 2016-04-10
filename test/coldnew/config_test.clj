@@ -13,7 +13,7 @@
   (eval `(do (refresh-ns) conf/env)))
 
 (defn refresh-conf []
-  (eval `(do (refresh-ns) conf/config)))
+  (eval `(do (refresh-ns) conf/conf)))
 
 (deftest test-env
   (testing "env variables"

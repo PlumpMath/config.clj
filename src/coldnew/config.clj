@@ -38,7 +38,7 @@ This variable is resolved in the following order, the variables found in later w
 5. `config.edn` on the classpath.
 6. EDN file specified using the `config` environment variable."
            :doc/format :markdown}
-  config
+  conf
   (merge
    ;; 1. Find info from env
    environ.core/env
