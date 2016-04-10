@@ -12,4 +12,8 @@
 
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [environ "1.0.2"]
-                 [org.clojure/tools.logging "0.3.1"]])
+                 [org.clojure/tools.logging "0.3.1"]]
+
+  :plugins [[lein-codox "0.9.4"]]
+
+  :codox {:source-uri "https://github.com/coldnew/config.clj/blob/master/{filepath}#L{line}"})
