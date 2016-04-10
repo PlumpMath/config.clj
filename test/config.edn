@@ -1,0 +1,3 @@
+{:foo "bar"
+ ;; After use (coldnew.config/enable-eaval!), following config will be evaluated after read
+ :home2 (System/getenv "HOME")}

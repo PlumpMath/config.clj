@@ -18,6 +18,10 @@ dependencies:
     - ~/.m2
     - ~/.lein
 
+test:
+  override:
+    - ./lein test
+
 deployment:
   publish:
     branch: master

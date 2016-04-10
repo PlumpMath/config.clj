@@ -1,4 +1,5 @@
 # Config.clj
+[![Circle CI](https://circleci.com/gh/coldnew/config.clj.svg?style=svg)](https://circleci.com/gh/coldnew/config.clj)
 [![License](http://img.shields.io/badge/license-Eclipse-blue.svg?style=flat)](https://www.eclipse.org/legal/epl-v10.html)
 
 Simple library for managing configuration using environment variables and EDN configuration files.
