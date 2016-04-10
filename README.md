@@ -4,7 +4,7 @@
 
 Simple library for managing configuration using environment variables and EDN configuration files.
 
-[![Clojars Project](http://clojars.org/coldnew/config/latest-version.svg)](http://clojars.org/coldnew/config)
+[![Clojars Project](https://clojars.org/coldnew/config/latest-version.svg)](https://clojars.org/coldnew/config)
 
 [Latest codox API docs](https://coldnew.github.io/config.clj/).
 
