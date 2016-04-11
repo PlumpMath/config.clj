@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
-## [Unreleased][unreleased]
+## [1.2.0] - 2016-04-11
 ### Changed
 - Revert 1.1.0 version which can't really load config.edn in class path
 
@@ -17,7 +17,7 @@ All notable changes to this project will be documented in this file. This change
 ### Changed
 - First release with basic doc and functions
 
-[unreleased]: https://github.com/your-name/t2/compare/1.1.0...HEAD
-[1.1.0]: https://github.com/coldnew/config.clj/compare/1.1.0...HEAD
+[1.2.0]: https://github.com/your-name/t2/compare/1.2.0...HEAD
+[1.1.0]: https://github.com/coldnew/config.clj/compare/1.1.0...1.2.0
 [1.0.1]: https://github.com/coldnew/config.clj/compare/1.0.1...1.1.0
 [1.0.0]: https://github.com/coldnew/config.clj/compare/1.0.0...1.0.1

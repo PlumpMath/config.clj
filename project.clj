@@ -1,4 +1,4 @@
-(defproject coldnew/config "1.2.0-SNAPSHOT"
+(defproject coldnew/config "1.2.0"
   :description "Library for managing environment variables in Clojure using EDN configuration files."
   :author "Yen-Chin, Lee"
   :url "https://github.com/coldnew/config.clj"
