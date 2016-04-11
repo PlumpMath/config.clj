@@ -1,6 +1,5 @@
 (ns coldnew.config.impl
-  (:require [environ.core :as environ]
-            [clojure.edn :as edn]
+  (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
             [clojure.tools.logging :as log])
   (:import java.io.PushbackReader))
@@ -36,25 +35,3 @@
         (eval-file (edn/read r))))
     (catch Exception e
       (log/warn (str "WARNING: failed to parse " f " " (.getLocalizedMessage e))))))
-
-(defn load-env
-  "Real definition of `env` variable."
-  []
-  (merge
-   ;; 1. Find config.edn in classpath
-   (read-resource "config.edn")
-   ;; 2. If environment variable `CONFIG' is specified, also read it
-   (read-file (environ.core/env :config))
-   ;; 3. Find info fron env
-   environ/env))
-
-(defn load-conf
-  "Real definition of `conf` variable."
-  []
-  (merge
-   ;; 1. Find info from env
-   environ.core/env
-   ;; 2. Find config.edn in classpath
-   (read-resource "config.edn")
-   ;; 3. If environment variable `CONFIG' is specified, also read it
-   (read-file (environ.core/env :config))))
